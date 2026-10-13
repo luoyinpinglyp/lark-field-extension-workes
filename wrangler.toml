@@ -1,0 +1,14 @@
+name = "lark-field-extension-workes"
+main = "src/index.js"
+compatibility_date = "2024-09-01"
+
+# 非敏感配置（公开可见）
+[vars]
+BASE_TOKEN = "BInTbEqBgamc6Ts6vj9cu5qdnIg"
+TABLE_ID = "tblk7cMC7sakjmHk"
+DEFAULT_RADIUS_KM = "5"
+MAX_OPTIONS = "50"
+
+# 敏感配置（用 wrangler secret 加密设置）：
+#   npx wrangler secret put APP_ID
+#   npx wrangler secret put APP_SECRET

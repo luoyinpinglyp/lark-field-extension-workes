@@ -1,0 +1,14 @@
+{
+  "name": "lark-field-extension-workes",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "飞书多维表格自定义字段捷径（Cloudflare Workers 版）：按当前位置半径过滤坐标点",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^3.78.0"
+  }
+}
